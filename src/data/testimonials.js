@@ -7,8 +7,8 @@ export const testimonials = [
       "At KVK, Kawardha, we are proud to have witnessed the remarkable contributions of SK Natural Farm in advancing sustainable and technology-driven agriculture in the region. Their commitment to natural farming practices, coupled with cutting-edge drone technology for agri-solutions, has made a tangible impact on local farmers’ productivity and efficiency.",
   },
   {
-    name: "Dr Zubair",
-    title: "PhD in Agriculture",
+    name: "Dinesh Jaishwal",
+    title: "Staff of KVK",
     avatar: "https://i.pravatar.cc/150?img=2",
     testimonial:
       "SK Natural Farm is doing commendable work in promoting sustainable and tech-driven agriculture. Their use of drones for precision farming and support for organic practices is truly transforming the way farmers work. We at KVK Kawardha appreciate their efforts and impact on rural farming communities.",
@@ -35,8 +35,8 @@ export const testimonials = [
       "SK Natural Farm is playing a significant role in advancing sustainable agriculture through innovative technologies. Their efforts in integrating drones with natural farming practices are empowering farmers with smarter, eco-friendly solutions. We truly value their contribution to rural agricultural transformation.",
   },
   {
-    name: "KVK Barh (Patna)",
-    title: "",
+    name: "Dr. Shardha",
+    title: "KVK Barh (Patna)",
     avatar: "https://i.pravatar.cc/150?img=6",
     testimonial:
       "SK Natural Farm is doing exceptional work in promoting smart and sustainable farming. Their use of drone technology and commitment to natural practices is helping farmers adopt modern, efficient, and eco-friendly methods. We appreciate their innovative contribution to agriculture.",

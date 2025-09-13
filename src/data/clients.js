@@ -1,8 +1,8 @@
 export const clients = [
-  { src: "./logo1.svg", name: "Logo" },
+  { src: "./logo_1_new.svg", name: "Logo" },
   { src: "./logo2.svg", name: "Logo" },
-  { src: "./logo3.svg", name: "Logo" },
-  { src: "./logo4.svg", name: "Logo" },
+  { src: "./logo_sopul.svg", name: "Logo" },
+  { src: "./logo_kishanganj.svg", name: "Logo" },
   
   { src: "./logo6.svg", name: "Logo" },
   { src: "./logo7.svg", name: "Logo" },

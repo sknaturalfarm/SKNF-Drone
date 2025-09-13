@@ -9,7 +9,7 @@ export function FeatureSection({
   ...rest
 }) {
   return (
-    <section className="bg-base-100 dark:bg-base-900 py-24" {...rest}>
+    <section className="bg-base-100 dark:bg-base-900 py-10" {...rest}>
       <div className="container px-4 mx-auto">
         <SectionHeading
           align="center"

@@ -50,7 +50,7 @@ export default function LearnMore() {
             <div className="absolute inset-0 bg-gradient-to-r from-green-600/10 to-emerald-600/10 rounded-3xl transform rotate-1 scale-105"></div>
             <div className="relative bg-white/70 backdrop-blur-sm p-12 rounded-3xl shadow-xl border border-green-100">
               <h1 className="text-6xl md:text-7xl font-black bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 text-transparent bg-clip-text mb-6 leading-tight">
-                SKNF Smart Solutions
+                SKNF SkyCult Solutions
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto font-light">
                 Pioneering the future of agriculture through intelligent technology and sustainable innovation
@@ -77,7 +77,7 @@ export default function LearnMore() {
                     <div className="p-3 bg-white/20 rounded-full backdrop-blur-sm">
                       <UserCircleIcon className="h-8 w-8 text-white" />
                     </div>
-                    <h2 className="text-4xl font-bold tracking-tight">About SKNF</h2>
+                    <h2 className="text-4xl font-bold tracking-tight">About SK Natural Farm</h2>
                   </div>
                   <p className="text-green-100 text-lg font-light">
                     Transforming agriculture through innovation, sustainability, and community empowerment
@@ -109,7 +109,7 @@ export default function LearnMore() {
                     {/* Key Stats */}
                     <div className="grid grid-cols-2 gap-4">
                       <div className="text-center p-6 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl border border-green-200">
-                        <div className="text-3xl font-bold text-green-700">500+</div>
+                        <div className="text-3xl font-bold text-green-700">5000+</div>
                         <div className="text-sm text-green-600 font-medium">Farmers Empowered</div>
                       </div>
                       <div className="text-center p-6 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-2xl border border-emerald-200">
@@ -341,7 +341,7 @@ export default function LearnMore() {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-6">
                 <a
-                  href="https://forms.cloud.microsoft.com/r/EeH8xhLjBN?origin=lprLink"
+                  href="/auth"
                   className="inline-flex items-center px-10 py-4 bg-white text-green-600 font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                 >
                   <SparklesIcon className="h-5 w-5 mr-2" />

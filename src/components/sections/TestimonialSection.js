@@ -13,7 +13,7 @@ export function TestimonialSection({
 }) {
   return (
     <section
-      className="bg-base-100 dark:bg-base-900 py-24 min-h-screen"
+      className="bg-base-100 dark:bg-base-900 py-5 min-h-screen"
       {...rest}
     >
       <div className="container px-4 mx-auto">

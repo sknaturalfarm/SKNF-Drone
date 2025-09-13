@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sk Naturalfarm</title>
+        <title>Sk Natural Farm</title>
       </Head>
 
       <Header
@@ -37,15 +37,16 @@ export default function Home() {
       <HeroSection
         id="home"
         badge={{
-          href: "#",
-          icon: "tabler:arrow-right",
+          // href: "#",
+          // icon: "tabler:arrow-right",
           label: "SK Natural Farm presents",
         }}
         title="Smart Drone "
         description="we are pioneering a future where cutting-edge drone technology meets the grounded needs of agriculture and national defense. Our mission is simple yet impactful — to revolutionize how we grow food and protect our borders."
         buttons={[
           {
-            href: "https://www.instagram.com/sknaturalfarm/?igshid=NzZlODBkYWE4Ng%3D%3D",
+            href: "https://www.instagram.com/sknaturalfarm/?igshid=NzZlODBkYWE4Ng%3D%3D,",
+            // target: "_blank",
             label: "follow us",
             color: "dark",
           },
@@ -58,9 +59,11 @@ export default function Home() {
           },
         ]}
         image={{
-          src: "./tablet-mockup.png",
+          src: "./sol.png",
+          // src: "./tablet-mockup.png",
           alt: "Product Screenshot on Tablet",
-          className: "w-full h-auto",
+          className: "w-1/2 h-auto mx-auto pb-10",
+          // className: "w-full h-auto",
         }}
         clientsLabel="Trusted by "
         clients={clients}
@@ -74,7 +77,7 @@ export default function Home() {
       />
 
       <LargeFeatureSection
-        title="Smart drone for Agriculture"
+        title="Smart Drone for Agriculture"
         description="In the agriculture sector, we empower farmers with intelligent drone systems that offer precision spraying, real-time crop monitoring, soil health analysis, and yield optimization. Our AI-powered drones reduce labor, save time, and enhance sustainability — making farming more efficient and eco-friendly."
         list={features.slice(0, 3)}
         image={{
@@ -99,13 +102,13 @@ export default function Home() {
       />
 
       <PricingSection
-        id="pricing"
+        id="categories"
         title="Drone Categories"
-        description=" drone categories, grouped by application and function."
+        description="drone categories, grouped by application and function."
         badge={{
           leading: true,
           icon: "tabler:credit-card",
-          label: "Categories",
+          label: "CATEGORIES",
         }}
         pricing={pricing}
       />
@@ -113,7 +116,7 @@ export default function Home() {
       <TestimonialSection
         id="testimonials"
         title="Love from our customers"
-        description="Trusted client of SK Naturalfarm "
+        description="Trusted client of SK Natural Farm "
         badge={{
           leading: true,
           icon: "tabler:heart",
@@ -155,7 +158,7 @@ export default function Home() {
         buttons={[
           {
             label: "Start Now",
-            href: "https://forms.cloud.microsoft/r/EeH8xhLjBN?origin=lprLink",
+            href: "/auth",
             color: "dark",
           },
         ]}

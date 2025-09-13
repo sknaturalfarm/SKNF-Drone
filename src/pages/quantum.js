@@ -3,11 +3,10 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-
 export default function QuantumProPage() {
   const [isVisible, setIsVisible] = useState(false);
   const [activeTab, setActiveTab] = useState('features');
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
@@ -158,7 +157,7 @@ export default function QuantumProPage() {
   {/* Company Logo Image */}
   <div className={`w-12 h-12 relative rounded-full overflow-hidden glassmorphism ${themeClasses.card}`}>
     <Image
-      src="/logo.png" // make sure this file exists in /public
+      src="/newLogo.jpg" // make sure this file exists in /public
       alt="SK Naturalfarm Logo"
       fill
       className="object-contain"
@@ -166,7 +165,7 @@ export default function QuantumProPage() {
     />
   </div>
   <div className={`text-2xl font-black gradient-text`}>
-    SK Naturalfarm
+    SK Natural Farm
   </div>
 </div>
               <div className="flex items-center space-x-8">
@@ -215,7 +214,7 @@ export default function QuantumProPage() {
                 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
   <a
-    href="https://x.com/Adil15433744?t=snvaXN5aoYEP-gsbl1t37g&s=09"
+    href="/auth"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -225,7 +224,7 @@ export default function QuantumProPage() {
   </a>
 
   <a
-    href="https://www.youtube.com/@sknaturalfarm/featured"
+    href="https://www.youtube.com/shorts/UAvg3n0kQrQ"
     target="_blank"
     rel="noopener noreferrer"
   >

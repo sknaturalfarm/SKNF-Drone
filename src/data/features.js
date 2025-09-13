@@ -10,12 +10,12 @@ export const features = [
     icon: "tabler:stack",
   },
   {
-    title: " Payload Capacity",
+    title: "Payload Capacity",
     description: "drones are fitted with tanks ranging from 5 to 30 Kg. These tanks feed into a precision spraying system that controls droplet size, spray volume, and coverage area.",
     icon: "tabler:database",
   },
   {
-    title: " Sensors & Cameras",
+    title: "Sensors & Cameras",
     description: "Get priority support for all your needs.",
     icon: "tabler:headset",
   },
@@ -25,7 +25,7 @@ export const features = [
     icon: "tabler:chart-bar",
   },
   {
-    title: ". Wind & Weather Tolerance",
+    title: "Wind & Weather Tolerance",
     description: "Dust-proof and heat-tolerant Capable of flying in winds up to 35 km/h This makes them reliable even in India’s varied",
     icon: "tabler:brand-appstore",
   },

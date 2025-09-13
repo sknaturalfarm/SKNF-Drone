@@ -162,7 +162,7 @@ export default function OmegaModePage() {
   {/* Company Logo Image */}
   <div className={`w-12 h-12 relative rounded-full overflow-hidden glassmorphism ${themeClasses.card}`}>
     <Image
-      src="/logo.png" // make sure this file exists in /public
+      src="/newLogo.jpg" // make sure this file exists in /public
       alt="SK Naturalfarm Logo"
       fill
       className="object-contain"
@@ -170,7 +170,7 @@ export default function OmegaModePage() {
     />
   </div>
   <div className={`text-2xl font-black gradient-text`}>
-    SK Naturalfarm
+    SK Natural Farm
   </div>
 </div>
               <div className="flex items-center space-x-8">
@@ -216,13 +216,13 @@ export default function OmegaModePage() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
-  <Link href="https://x.com/Adil15433744?t=snvaXN5aoYEP-gsbl1t37g&s=09">
+  <Link href="/auth">
     <button className={`${themeClasses.button} px-8 py-4 rounded-full font-bold text-lg text-white transition-all hover:scale-105 hover:shadow-2xl`}>
       Get Started →
     </button>
   </Link>
 
-  <Link href="https://www.youtube.com/@sknaturalfarm/featured">
+  <Link href="https://www.youtube.com/shorts/UAvg3n0kQrQ">
     <button className={`glassmorphism ${themeClasses.buttonSecondary} ${themeClasses.text} px-8 py-4 rounded-full font-semibold hover-glow transition-all`}>
       Watch Demo
     </button>

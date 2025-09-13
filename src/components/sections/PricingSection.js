@@ -11,7 +11,7 @@ export function PricingSection({
   pricing,
   ...rest
 }) {
-  const [tenure, setTenure] = React.useState("army");
+  const [tenure, setTenure] = React.useState("Agro");
   const [wingFilter, setWingFilter] = React.useState("");
 
   const droneTypes = [
@@ -60,7 +60,7 @@ export function PricingSection({
   ];
 
   return (
-    <section className="bg-base-100 dark:bg-base-900 py-24" {...rest}>
+    <section className="bg-base-100 dark:bg-base-900 py-4" {...rest}>
       <div className="container px-4 mx-auto min-h-screen">
         {/* Section Heading */}
         <SectionHeading
@@ -71,7 +71,7 @@ export function PricingSection({
         />
 
         {/* Tabs */}
-        <div className="text-center my-10">
+        <div className="text-center my-4">
           <Tabs
             value={tenure}
             onChange={setTenure}

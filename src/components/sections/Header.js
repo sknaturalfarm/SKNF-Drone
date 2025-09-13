@@ -15,7 +15,7 @@ export function Header({ logo, links, buttons, centerEmail, className, ...rest }
     <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10">
       <nav
         className={cn(
-          "relative h-14 container px-0 mx-auto border-b border-base flex flex-wrap justify-start items-center gap-4 lg:gap-8",
+          "relative h-14 container px-8 mx-auto border-b border-base flex flex-wrap justify-start items-center gap-4 lg:gap-8",
           className
         )}
         {...rest}

@@ -1,7 +1,9 @@
 // header.js
 export const header = {
   logo: {
-    src: "./logo-mark.png",
+    src: "./main_logo.svg",
+    // src: "./newLogo.jpg",
+    // src: "./logo-mark.png",
     alt: "logo",
     href: "/",
   },
@@ -14,8 +16,8 @@ export const header = {
       href: "#features",
     },
     {
-      label: "Pricing",
-      href: "#pricing",
+      label: "Categories",
+      href: "#categories",
     },
     {
       label: "Testimonials",
@@ -27,12 +29,12 @@ export const header = {
     },
   ],
   buttons: [
-    {
-      label: "Sign In",
-      href: "/auth",
-      color: "transparent",
-      size: "small",
-    },
+    // {
+    //   label: "Sign In",
+    //   href: "/auth",
+    //   color: "transparent",
+    //   size: "small",
+    // },
     {
       label: "Sign Up",
       href: "/auth",
