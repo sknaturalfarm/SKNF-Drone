@@ -340,13 +340,13 @@ export default function LearnMore() {
                 Join the agricultural revolution with SKNF&apos;s cutting-edge smart farming solutions
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-6">
-                <a
-                  href="/auth"
-                  className="inline-flex items-center px-10 py-4 bg-white text-green-600 font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
-                >
-                  <SparklesIcon className="h-5 w-5 mr-2" />
-                  Get Started Today
-                </a>
+                <Link
+                    href="/auth"
+                    className="inline-flex items-center px-10 py-4 bg-white text-green-600 font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+                  >
+                    <SparklesIcon className="h-5 w-5 mr-2" />
+                    Get Started Today
+                  </Link>
                 <button className="inline-flex items-center px-10 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-green-600 transition-all duration-300">
                   <EyeIcon className="h-5 w-5 mr-2" />
                   Watch Demo
