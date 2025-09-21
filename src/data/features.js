@@ -1,7 +1,7 @@
 export const features = [
   {
     title: "Smart Flight Modes",
-    description: "remote control, mobile apps, and ground control stations. They can fly fully autonomously based on GPS-defined paths, reducing the need for manual piloting. With Real-Time Kinematic (RTK) technology",
+    description: "Remote control, mobile apps, and ground control stations. They can fly fully autonomously based on GPS-defined paths, reducing the need for manual piloting. With Real-Time Kinematic (RTK) technology",
     icon: "tabler:users",
   },
   {
@@ -11,7 +11,7 @@ export const features = [
   },
   {
     title: "Payload Capacity",
-    description: "drones are fitted with tanks ranging from 5 to 30 Kg. These tanks feed into a precision spraying system that controls droplet size, spray volume, and coverage area.",
+    description: "Drones are fitted with tanks ranging from 5 to 30 Kg. These tanks feed into a precision spraying system that controls droplet size, spray volume, and coverage area.",
     icon: "tabler:database",
   },
   {
@@ -21,7 +21,7 @@ export const features = [
   },
   {
     title: "Battery & Charging",
-    description: "high-capacity Li-Po or Li-Ion batteries, which are removable and fast-charging. Operators can swap batteries in the field, minimizing downtime. ",
+    description: "High-capacity Li-Po or Li-Ion batteries, which are removable and fast-charging. Operators can swap batteries in the field, minimizing downtime. ",
     icon: "tabler:chart-bar",
   },
   {

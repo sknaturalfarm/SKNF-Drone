@@ -177,17 +177,19 @@ export default function AlphaModePage() {
                     priority
                   />
                 </div>
-                <div className={`text-2xl font-black gradient-text`}>
+                <div
+                  className={`text-lg sm:text-xl md:text-2xl lg:text-3xl font-black gradient-text`}
+                >
                   SK Natural Farm
                 </div>
               </div>
               <div className="flex items-center space-x-8">
                 <div className="hidden md:flex space-x-8">
                   <Link
-                    href="/"
+                    href="/categories"
                     className={`${themeClasses.textSecondary} hover:${themeClasses.accent} transition-colors font-medium`}
                   >
-                    Home
+                    Back
                   </Link>
                   <a
                     href="#overview"
@@ -294,52 +296,46 @@ export default function AlphaModePage() {
                 className={`fade-in ${isVisible ? "visible" : ""} relative`}
                 style={{ animationDelay: "0.3s" }}
               >
-                
-                <div className="relative mt-10 flex justify-center"> 
-
-                <div
-                  className={`relative h-96 glassmorphism ${themeClasses.card} rounded-3xl overflow-hidden hover-glow transition-all duration-500`}
-                >
-                   
+                <div className="relative mt-10 flex justify-center">
+                  <div
+                    className={`w-full max-w-5xl glassmorphism ${themeClasses.card} rounded-3xl overflow-hidden hover-glow transition-all duration-500`}
+                  >
+                    {/* Image */}
                     <Image
                       src="/download-1.png"
                       alt="Alpha Mode Drone - Professional Grade"
-                      width={1200}                
-                      height={600}                  
-                      className="rounded-3xl object-contain w-full max-h-[80vh]"  
+                      width={1200}
+                      height={600}
+                      priority
+                      className="rounded-t-3xl object-contain w-full h-auto"
                     />
-                 
-                  <div
-                    className={`absolute inset-0 ${
-                      darkMode
-                        ? "bg-gradient-to-t from-black/70 to-transparent"
-                        : "bg-gradient-to-t from-gray-900/30 to-transparent"
-                    }`}
-                  ></div>
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <h3
-                      className={`text-xl font-bold mb-2 ${themeClasses.text}`}
-                    >
-                      Professional Grade Design
-                    </h3>
-                    <p className={themeClasses.textSecondary}>
-                      Built for precision and reliability
-                    </p>
+
+                    {/* Text Section */}
+                    <div className="p-6">
+                      <h3
+                        className={`text-lg sm:text-xl md:text-2xl font-bold mb-2 ${themeClasses.text}`}
+                      >
+                        Professional Grade Design
+                      </h3>
+                      <p
+                        className={`text-sm sm:text-base md:text-lg ${themeClasses.textSecondary}`}
+                      >
+                        Built for precision and reliability
+                      </p>
+                    </div>
                   </div>
                 </div>
-                
-                 </div>
-
               </div>
             </div>
           </div>
         </section>
 
         {/* Video Demo Section */}
-        <section id="video" className="py-20 px-6">
+        <section id="video" className="py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className={`text-5xl font-black gradient-text mb-4`}>
+            {/* Heading */}
+            <div className="text-center mb-12">
+              <h2 className="text-5xl font-black gradient-text mb-4">
                 See Alpha in Action
               </h2>
               <p
@@ -350,9 +346,11 @@ export default function AlphaModePage() {
               </p>
             </div>
 
+            {/* Video Card */}
             <div
-              className={`relative glassmorphism ${themeClasses.card} rounded-3xl overflow-hidden hover-glow transition-all duration-500`}
+              className={`relative w-full max-w-4xl mx-auto glassmorphism ${themeClasses.card} rounded-2xl overflow-hidden hover-glow transition-all duration-500`}
             >
+              {/* Video with fixed 16:9 aspect ratio */}
               <div className="aspect-video relative">
                 <video
                   className="w-full h-full object-cover"
@@ -362,7 +360,7 @@ export default function AlphaModePage() {
                 >
                   <source src="/videos/drone3.mp4" type="video/mp4" />
                   <p className={`${themeClasses.text} p-8`}>
-                    Your browser doesn&apos;t support video playback.
+                    Your browser doesn&apos;t support video playback.{" "}
                     <a
                       href="/videos/drone3.mp4"
                       className={`${themeClasses.accent} underline`}
@@ -374,33 +372,32 @@ export default function AlphaModePage() {
                 <div className="video-overlay pointer-events-none"></div>
               </div>
 
-              <div className="p-8">
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="text-center">
+              {/* Stats Section - Option 2: Responsive Wrap */}
+              <div className="p-3">
+                <div className="flex flex-row flex-wrap justify-around items-center gap-2">
+                  <div className="text-center flex-1 min-w-[80px]">
                     <div
-                      className={`text-3xl font-black ${themeClasses.accent} mb-2`}
+                      className={`text-lg md:text-2xl font-black ${themeClasses.accent} mb-1`}
                     >
                       15min
                     </div>
-                    <p className={themeClasses.textSecondary}>
-                      Flight Duration
-                    </p>
+                    <p className="text-xs md:text-sm">Flight Duration</p>
                   </div>
-                  <div className="text-center">
+                  <div className="text-center flex-1 min-w-[80px]">
                     <div
-                      className={`text-3xl font-black ${themeClasses.accent} mb-2`}
+                      className={`text-lg md:text-2xl font-black ${themeClasses.accent} mb-1`}
                     >
                       10kg
                     </div>
-                    <p className={themeClasses.textSecondary}>Max Payload</p>
+                    <p className="text-xs md:text-sm">Max Payload</p>
                   </div>
-                  <div className="text-center">
+                  <div className="text-center flex-1 min-w-[80px]">
                     <div
-                      className={`text-3xl font-black ${themeClasses.accent} mb-2`}
+                      className={`text-lg md:text-2xl font-black ${themeClasses.accent} mb-1`}
                     >
                       400m
                     </div>
-                    <p className={themeClasses.textSecondary}>Control Range</p>
+                    <p className="text-xs md:text-sm">Control Range</p>
                   </div>
                 </div>
               </div>

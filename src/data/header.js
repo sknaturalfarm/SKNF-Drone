@@ -12,12 +12,20 @@ export const header = {
   },
   links: [
     {
-      label: "Features",
-      href: "#features",
+      label: "Home",
+      href: "/",
+    },
+     {
+      label: "About Us",
+      href: "/learn-more",
     },
     {
-      label: "Categories",
-      href: "#categories",
+      label: "Features",
+      href: "/features",
+    },
+    {
+      label: "Products",
+      href: "/categories",
     },
     {
       label: "Testimonials",
@@ -25,8 +33,13 @@ export const header = {
     },
     {
       label: "FAQs",
-      href: "#faqs",
+      href: "/faq",
     },
+    {
+      label: "Contact Us",
+      href: "/contact",
+    },
+        
   ],
   buttons: [
     // {

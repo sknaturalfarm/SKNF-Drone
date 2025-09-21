@@ -56,3 +56,7 @@ section {
 .animate-scroll-left {
   animation: scroll-left 30s linear infinite;
 }
+
+html, body {
+  overflow-x: hidden;
+}
