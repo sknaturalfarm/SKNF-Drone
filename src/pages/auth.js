@@ -267,7 +267,7 @@ export default function AuthPage() {
     setMessage(null);
 
     try {
-      const res = await fetch("https://sknfauthbackend-production.up.railway.app/api/auth/register", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ fullName, email, password }),
@@ -298,7 +298,7 @@ export default function AuthPage() {
     setMessage(null);
 
     try {
-      const res = await fetch("https://sknfauthbackend-production.up.railway.app/api/auth/login", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
