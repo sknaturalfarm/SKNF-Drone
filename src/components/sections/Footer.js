@@ -23,7 +23,7 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
           <div className="md:col-span-2">
             
             <p className="mb-1">&copy; {copyright}</p>
-            <p className="italic text-green-200">SKNF- Smart Solutions</p>
+            <p className="italic text-green-200">SKNF SkyCult Solutions Pvt Ltd.</p>
             <a
               href="https://forms.gle/your-career-form-link"
               target="_blank"

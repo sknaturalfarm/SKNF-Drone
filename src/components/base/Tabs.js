@@ -10,7 +10,7 @@ export const Tabs = React.forwardRef(
       >
         <div className="inline-flex items-center relative isolate">
           <div
-            className="absolute h-full bg-white dark:bg-base-950  rounded-full duration-200 ease-linear shadow"
+            className="absolute h-full bg-white dark:bg-base-950 rounded-full duration-200 ease-linear shadow"
             style={{
               width: `${100 / options.length}%`,
               left: `calc(${options.indexOf(value) * (100 / options.length)}%)`,

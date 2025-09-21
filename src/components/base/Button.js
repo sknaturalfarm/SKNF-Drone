@@ -12,6 +12,7 @@ export function Button({
   block = false,
   onClick,
   className,
+  target, // <-- allow passing target manually if needed
 }) {
   const iconClass = cn(
     { "size-5": size === "base" },
@@ -23,6 +24,10 @@ export function Button({
     <Tag
       href={href}
       onClick={onClick}
+      // ✅ Automatically open in new tab if href exists (unless overridden)
+      target={href ? target || "_blank" : undefined}
+      rel={href ? "noopener noreferrer" : undefined}
+
       className={cn(
         "group inline-flex gap-2 items-center rounded-full leading-none duration-200 ease-in-out",
         {

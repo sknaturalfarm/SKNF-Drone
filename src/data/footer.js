@@ -1,5 +1,5 @@
 export const footer = {
-  copyright: "2025 SK Naturalfarm. All rights reserved.",
+  copyright: "2025 SK Natural Farm. All rights reserved.",
   logo: {
     src: "./logo.png",
     alt: "logo",

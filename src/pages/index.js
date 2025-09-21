@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sk Naturalfarm</title>
+        <title>Sk Natural Farm</title>
       </Head>
 
       <Header
@@ -37,36 +37,37 @@ export default function Home() {
       <HeroSection
         id="home"
         badge={{
-          href: "#",
-          icon: "tabler:arrow-right",
+          // href: "#",
+          // icon: "tabler:arrow-right",
           label: "SK Natural Farm presents",
         }}
         title="Smart Drone "
-        description="we are pioneering a future where cutting-edge drone technology meets the grounded needs of agriculture and national defense. Our mission is simple yet impactful — to revolutionize how we grow food and protect our borders."
-        buttons={[
-          {
-            href: "https://www.instagram.com/sknaturalfarm/?igshid=NzZlODBkYWE4Ng%3D%3D",
-            label: "follow us",
-            color: "dark",
-          },
-          {
-            href: "/learn-more",
-            label: "Learn More",
-            color: "transparent",
-            variant: "link",
-            icon: "tabler:arrow-right",
-          },
-        ]}
-        image={{
-          src: "./tablet-mockup.png",
-          alt: "Product Screenshot on Tablet",
-          className: "w-full h-auto",
-        }}
+        description="We are pioneering a future where cutting-edge drone technology meets the grounded needs of agriculture and national defense. Our mission is simple yet impactful — to revolutionize how we grow food and protect our borders."
+        // buttons={[
+        //   {
+        //     href: "https://www.instagram.com/sknaturalfarm/?igshid=NzZlODBkYWE4Ng%3D%3D,",
+        //     // target: "_blank",
+        //     label: "follow us",
+        //     color: "dark",
+        //   },
+        //   {
+        //     href: "/learn-more",
+        //     label: "Learn More",
+        //     color: "transparent",
+        //     variant: "link",
+        //     icon: "tabler:arrow-right",
+        //   },
+        // ]}
+          //  image={{
+          //     src: "./sknf_photo.svg",
+          //     alt: "Product Screenshot on Tablet",
+          //     className: "w-full sm:w-3/4 lg:w-1/2 h-auto mx-auto pb-10",
+          //   }}
         clientsLabel="Trusted by "
         clients={clients}
       />
 
-      <FeatureSection
+      {/* <FeatureSection
         id="features"
         title="Discover Our Amazing Drone Tech Solution"
         description="Explore the wide range of powerful features that our product offers. From advanced Drone to seamless integrations, we have everything you need to solve the problems."
@@ -74,7 +75,7 @@ export default function Home() {
       />
 
       <LargeFeatureSection
-        title="Smart drone for Agriculture"
+        title="Smart Drone for Agriculture"
         description="In the agriculture sector, we empower farmers with intelligent drone systems that offer precision spraying, real-time crop monitoring, soil health analysis, and yield optimization. Our AI-powered drones reduce labor, save time, and enhance sustainability — making farming more efficient and eco-friendly."
         list={features.slice(0, 3)}
         image={{
@@ -87,7 +88,7 @@ export default function Home() {
 
       <LargeFeatureSection
         reverse={true}
-        title="Advance Drone for national defense "
+        title="Advance Drone for National Defense "
         description="On the defense front, our specialized drones support surveillance, reconnaissance, and tactical operations. Built for rugged environments, they provide high-resolution imaging, thermal tracking, and autonomous mission capability — offering our armed forces reliable eyes in the sky during critical operations."
         list={features.slice(0, 3)}
         image={{
@@ -96,24 +97,24 @@ export default function Home() {
           className:
             "w-full aspect-square object-contain -rotate-6 hover:rotate-0 duration-300 ease-in-out",
         }}
-      />
+      /> */}
 
-      <PricingSection
-        id="pricing"
+      {/* <PricingSection
+        id="categories"
         title="Drone Categories"
-        description=" drone categories, grouped by application and function."
+        description="drone categories, grouped by application and function."
         badge={{
           leading: true,
           icon: "tabler:credit-card",
-          label: "Categories",
+          label: "CATEGORIES",
         }}
         pricing={pricing}
-      />
+      /> */}
 
       <TestimonialSection
         id="testimonials"
         title="Love from our customers"
-        description="Trusted client of SK Naturalfarm "
+        description="Trusted client of SK Natural Farm "
         badge={{
           leading: true,
           icon: "tabler:heart",
@@ -128,7 +129,7 @@ export default function Home() {
         }}
       />
 
-      <FaqSection
+      {/* <FaqSection
         id="faqs"
         title="Frequently Asked Questions"
         description="Here are some of our most frequently asked questions. If you have a question that isn't answered here, please feel free to contact us."
@@ -146,7 +147,7 @@ export default function Home() {
           src: "/public/map.png", // Make sure this image exists in /public folder
           alt: "https://maps.app.goo.gl/zqC4HUrEtYuL8DUEA",
         }}
-      />
+      /> */}
 
       {/* Original CTA */}
       <CtaSection
@@ -155,7 +156,7 @@ export default function Home() {
         buttons={[
           {
             label: "Start Now",
-            href: "https://forms.cloud.microsoft/r/EeH8xhLjBN?origin=lprLink",
+            href: "/auth",
             color: "dark",
           },
         ]}

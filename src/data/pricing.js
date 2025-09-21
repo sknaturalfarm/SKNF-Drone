@@ -6,7 +6,7 @@ export const pricing = [
       Agro: 500,
       Army: 35000,
     },
-    unit: "per /acer",
+    unit: "per/acer",
     currency: "₹",
     features: [
       "Manual control",

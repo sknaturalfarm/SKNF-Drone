@@ -12,10 +12,10 @@ export function Header({ logo, links, buttons, centerEmail, className, ...rest }
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10">
+    <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-50">
       <nav
         className={cn(
-          "relative h-14 container px-0 mx-auto border-b border-base flex flex-wrap justify-start items-center gap-4 lg:gap-8",
+          "relative h-14 container px-8 mx-auto border-b border-base flex flex-wrap justify-start items-center gap-4 lg:gap-8",
           className
         )}
         {...rest}
@@ -27,7 +27,7 @@ export function Header({ logo, links, buttons, centerEmail, className, ...rest }
             alt={logo.alt}
             width={40}
             height={40}
-            className="h-10 w-auto hover:animate-spin dark:invert"
+            className="h-10 w-10 rounded-full object-cover hover:animate-spin dark:invert"
           />
         </Link>
 
@@ -59,8 +59,8 @@ export function Header({ logo, links, buttons, centerEmail, className, ...rest }
                 onClick={() => setOpen(false)}
                 className={
                   open
-                    ? "text-sm font-normal text-base-600 dark:text-base-400 hover:bg-base-100 dark:hover:bg-base-950 py-3 px-4 rounded-md"
-                    : "text-sm font-normal text-base-600 dark:text-base-400 hover:text-base-800 dark:hover:text-base-300"
+                    ? "text-sm font-normal text-base-800 dark:text-base-400 hover:bg-base-1000 dark:hover:bg-base-950 py-3 px-4 rounded-md"
+                    : "text-sm font-normal text-base-800 dark:text-base-400 hover:text-base-1000 dark:hover:text-base-300"
                 }
               >
                 {link.label}
