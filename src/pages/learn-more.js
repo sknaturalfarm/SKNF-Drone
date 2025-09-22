@@ -77,7 +77,7 @@ export default function LearnMore() {
                     <div className="p-3 bg-white/20 rounded-full backdrop-blur-sm">
                       <UserCircleIcon className="h-8 w-8 text-white" />
                     </div>
-                    <h2 className="text-4xl font-bold tracking-tight">About SK Natural Farm</h2>
+                    <h2 className="text-4xl font-bold tracking-tight">About SK Natural Farm(SKNF)</h2>
                   </div>
                   <p className="text-green-100 text-lg font-light">
                     Transforming agriculture through innovation, sustainability, and community empowerment
