@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sk Natural Farm</title>
+        <title>SK Natural Farm</title>
       </Head>
 
       <Header
